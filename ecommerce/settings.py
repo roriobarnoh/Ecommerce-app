@@ -25,7 +25,10 @@ SECRET_KEY = 'z+ksf@)0d^qojbh4rnp4b1to$hq&*tt(3bs$gf(3i267g$k9ln'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1'
+]
 
 
 # Application definition
@@ -128,3 +131,15 @@ STATICFILES_DIRS = [
 MEDIA_URL = '/images/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
+
+# # settings.py
+# :contentReference[oaicite:2]{index=2}
+
+# # settings.py
+
+# :contentReference[oaicite:12]{index=12}
+# :contentReference[oaicite:13]{index=13}
+# settings.py
+
+
+
